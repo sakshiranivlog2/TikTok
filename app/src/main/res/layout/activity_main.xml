@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0E0E0E"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/media_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="matrix" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/a1"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="180dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_me" />
+
+    <ImageView
+        android:id="@+id/a3"
+        android:layout_width="571dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/todo6"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/todo4"
+        android:src="@drawable/comment4" />
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/todo6"
+        android:src="@drawable/ic_share" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="36dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="480dp"
+        android:contentDescription="@string/todo11"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="188dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="450dp"
+        android:text="user12345"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="185dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="20dp"
+        android:text="description description"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="20dp"
+        android:drawableStart="@drawable/ic_audiotrack_black_24dp"
+        android:text="@string/ar_rahman_feat"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:progressBackgroundTint="@android:color/white"
+        android:progressTint="@android:color/white"
+        android:layout_marginTop="610dp"
+        android:layout_height="0.7dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0"
+        android:src="@drawable/ic_volume_up_grey_24dp"/>
+
+
+
+</RelativeLayout>

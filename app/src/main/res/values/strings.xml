@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NewApplication</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="textview">textview</string>
+    <string name="ar_rahman_feat">ar rahman(feat…)</string>
+    <string name="todooo">TODO</string>
+</resources>
